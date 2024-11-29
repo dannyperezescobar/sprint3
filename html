@@ -1,0 +1,99 @@
+<main class="container my-5">
+    <section id="landing" class="text-center mb-5">
+        <h2>Finanazas para no Financieros</h2>
+        <p>Presentamos una interfaz responsiva para todas las plataformas.</p>
+        <img src="/img/finanzas.svg" class="rounded-circle small-img" alt="Imagen ilustrativa" />
+    </section>
+
+    <div class="container mt-5">
+      <div class="row">
+          <div class="col-sm-4">
+              <h3>1 Adquiere conocimientos</h3>
+              <p>para interpretar y analizar la información financiera útil en la toma de decisiones</p>
+          </div>
+          <div class="col-sm-4">
+              <h3>2 Liderar la estructura</h3>
+              <p>con herramientas y metodologías que  mejoren las finanzas de la empresa.</p>
+          </div>
+          <div class="col-sm-4">
+              <h3>3 Afronta las nuevas tendencias</h3>        
+              <p>de los entornos económicos y financieros, con éxito</p>
+          </div>
+      </div>
+  </div>
+
+  <section id="course-info" class="mb-5">
+    <h2 class="text-center">Solicita Información sobre el Curso</h2>
+    <div class="card p-4 shadow-sm mx-auto" style="max-width: 400px;">
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre y Apellidos</label>
+                <input type="text" class="form-control" id="name" placeholder="Nombre y Apellidos" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                <div class="invalid-feedback">Por favor, ingresa un correo electrónico válido.</div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="country" class="form-label">País</label>
+                    <select class="form-select" id="country" required>
+                        <option selected disabled>Selecciona tu país</option>
+                        <option value="1">México</option>
+                        <option value="2">España</option>
+                        <option value="3">Argentina</option>
+                        <option value="4">Ecuador</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="city" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="city" placeholder="Ciudad" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label for="prefix" class="form-label">Prefijo</label>
+                    <input type="text" class="form-control" id="prefix" placeholder="Ej: +34" required>
+                </div>
+                <div class="col-md-9 mb-3">
+                    <label for="phone" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Número de teléfono" required>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="education" class="form-label">Nivel de Estudios</label>
+                <select class="form-select" id="education" required>
+                    <option selected disabled>Selecciona tu nivel</option>
+                    <option value="1">Bachillerato</option>
+                    <option value="2">Licenciatura en Finanzas o Economía</option>
+                    <option value="3">Maestría</option>
+                    <option value="4">Doctorado</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="experience" class="form-label">Experiencia en Finanzas</label>
+                <select class="form-select" id="experience" required>
+                    <option selected disabled>Selecciona tu nivel de experiencia</option>
+                    <option value="1">Nula</option>
+                    <option value="2">Principiante</option>
+                    <option value="3">Intermedio</option>
+                    <option value="4">Avanzado</option>
+                    <option value="5">Experto</option>
+                </select>
+            </div>
+            <div class="mb-3 text-muted" style="font-size: 0.8rem;">
+                ALPHA FINANCE INSTITUTE, tratará sus datos personales para contactarle e informarle sobre el curso "Master en Finanzas Avanzadas y Estrategias de Inversión", de cara a las próximas convocatorias. Puede que lo contactemos a través de medios electrónicos (WhatsApp).
+            </div>
+            <button type="submit" class="btn btn-danger w-100">QUIERO MÁS INFORMACIÓN</button>
+        </form>
+    </div>
+</section>
+
+</main>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Digital NAO. Todos los derechos reservados.</p>
+</footer>
+
+<script src="scripts.js"></script>
